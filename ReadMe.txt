@@ -1,8 +1,8 @@
 # Create virtual environment
-python -m venv myenv
+python -m venv venv
 
 # Activate on Windows
-myenv\Scripts\activate
+venv\Scripts\activate
 
 # Then install requirements
 pip install -r requirements.txt
@@ -14,4 +14,5 @@ streamlit run main.py
 
 # change to venv
 # Ctrl + Shift + P (Windows/Linux)
+
 # Python: Select Interpreter
