@@ -85,7 +85,6 @@ def load_models():
         models = {}
         models['Naive Bayes'] = joblib.load("models/naive_bayes_model.pkl")
         models['SVM'] = joblib.load("models/svm_model.pkl")
-        models['Logistic Regression'] = joblib.load("models/logistic_regression_model.pkl")
         return vectorizer, models
     except FileNotFoundError as e:
         st.error(f"Model files not found: {e}. Please run the training script first.")
@@ -120,8 +119,7 @@ def main():
     # Add info about the selected model
     model_info = {
         'Naive Bayes': 'Fast and works well with text data',
-        'SVM': 'Good for high-dimensional data like text',
-        'Logistic Regression': 'Provides probability estimates'
+        'SVM': 'Good for high-dimensional data like text'
     }
     st.sidebar.info(f"{selected_model}: {model_info[selected_model]}")
     

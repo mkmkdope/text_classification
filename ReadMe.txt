@@ -12,7 +12,6 @@ streamlit run main.py
 # dataset
 # https://www.kaggle.com/datasets/julian3833/jigsaw-unintended-bias-in-toxicity-classification/data?select=train.csv
 
-# change to venv
-# Ctrl + Shift + P (Windows/Linux)
-
+# change to venv (VS Code)
+# Ctrl + Shift + P
 # Python: Select Interpreter
