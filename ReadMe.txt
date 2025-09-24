@@ -24,10 +24,11 @@ pip install -r requirements.txt
 # Run streamlit 
 streamlit run main.py
 
-# Deactivate
+-- Deactivate (venv)
 deactivate
 
 -- Change to venv (VS Code)
 Ctrl + Shift + P
 Python: Select Interpreter
+
 
